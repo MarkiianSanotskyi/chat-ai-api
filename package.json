@@ -1,0 +1,27 @@
+{
+  "name": "chat-ai-api",
+  "version": "1.0.0",
+  "description": "Backend for an ai chat application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsc --noEmit & tsx --watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "author": "Mark Sanotskyi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.97.0",
+    "stream-chat": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.15",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
